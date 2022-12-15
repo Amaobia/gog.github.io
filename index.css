@@ -1,0 +1,139 @@
+.MainC{
+    width:auto;
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+body{
+    font-family:Arial;
+}
+.gogLink{
+    border-radius:20px;
+    background-color:grey;
+    text-decoration:none;
+    font-size:50px;
+    padding:25px;
+    font-family:Arial;
+    color:black;
+}
+.textThing{
+    width:500px;
+    font-size:25px;
+    border:none;
+    background-color:#202124;
+    color:white;
+}
+.textThing:focus{
+    outline:none;
+}
+.aButtonSub{
+    background-color:transparent;
+    border:none;
+    color:#5f6368;
+}
+.aButtonCam{
+    background-color:transparent;
+    border:none;
+    color:#5f6368;
+}
+.aButtonMic{
+    background-color:transparent;
+    border:none;
+    color:#5f6368;
+}
+.searchC{
+    width:120%;
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    border-radius:50px;
+}
+.micButton{
+    margin-left:125px;
+}
+.theForm{
+    border:2px solid black;
+    width:45%;
+    border-radius:24px;
+    padding-bottom:10px;
+    padding-top:10px;
+    display:flex;
+    justify-content:center;
+    border:1px solid #5f6368;
+}
+.datText{
+    background-color:#202124;
+    border:none;
+    width:74.5%;
+    color:white;
+    font-size:100%;
+}
+.datText:focus{
+    outline:none;
+}
+.img{
+    width:70%;
+}
+.imgCon{
+    display:flex;
+    justify-content:center;
+}
+.aa{
+    color:#8ab4f8;
+    text-decoration:none;
+}
+.aa:hover{
+    text-decoration:underline;
+}
+.aa:active{
+    text-decoration:underline;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+}
+.searchButton{
+    background-color:#202124;
+    border:none;
+    color:#999999;
+    border-radius:50px;
+}
+.micButton{
+    background-color:#202124;
+    border:none;
+    color:#999999;
+    border-radius:50px;
+}
+.buttonThing{
+    padding:10px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.buttonThing:hover{
+    box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+body{
+    background-color:#202124;
+}
+.mic{
+    width:5%;
+}
